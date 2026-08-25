@@ -34,7 +34,7 @@ protected:
 	{
 		short Choice;
 		cout << clsUtil::Taps(2) <<"Choose What You Want To Do Between [1 To 10] : ";
-		Choice = clsInputValidate<short>::ReadNumberBetween(1, 10, "Invalide Number, Choose From 1 To 8 : ");
+		Choice = clsInputValidate<short>::ReadNumberBetween(1, 10, "Invalide Number, Choose From 1 To 10 : ");
 		return Choice;
 	}
 	// done
