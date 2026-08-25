@@ -1,0 +1,23 @@
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.tlog
+*.exe
+*.dll
+*.user
+*.suo
+*.log
+Main.txt
+Main (1).txt
+clsBankClient.h.txt
+clsInputValidate.h.txt
+clsPerson.h.txt
+clsString.h.txt
+clsUtil.h.txt
