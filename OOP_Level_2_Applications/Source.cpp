@@ -17,7 +17,6 @@ int main()
 
 	while (true)
 	{
-		//clsLoginScreen::ShhowLoginScreen();
 		if (!clsLoginScreen::ShhowLoginScreen())
 		{
 			break;
