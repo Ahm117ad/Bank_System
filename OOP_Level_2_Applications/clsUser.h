@@ -2,8 +2,8 @@
 
 #include<iostream>
 #include<string>
+#include"clsString.h"
 #include"clsPerson.h"
-#include"E:\Programming_Advices\Course#1_to_#13\Course_#10\Project_String_Library\Project_String_Library\clsString.h"
 #include<vector>
 #include<fstream>
 #include"clsUtil.h"

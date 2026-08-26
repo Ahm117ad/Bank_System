@@ -1,10 +1,11 @@
 #pragma once
 
 #include<iostream>
+#include"clsString.h"
 #include<fstream>
 #include<vector>
 #include<string>
-#include"E:\Programming_Advices\Course#1_to_#13\Course_#10\Project_String_Library\Project_String_Library\clsString.h"
+
 
 class clsCurrency
 {

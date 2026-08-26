@@ -5,8 +5,8 @@
 #include<string>
 #include<ctime>
 #include<vector>
-//#include"E:\Programming_Advices\Course_#10\Project_String_Library\Project_String_Library\clsString.h"
-#include"E:\Programming_Advices\Course#1_to_#13\Course_#10\Project_String_Library\Project_String_Library\clsString.h"
+#include"clsString.h"
+
 
 using namespace std;
 

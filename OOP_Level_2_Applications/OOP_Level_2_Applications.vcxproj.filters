@@ -140,5 +140,8 @@
     <ClInclude Include="clsPerson.h">
       <Filter>Header Files\CoreClasses</Filter>
     </ClInclude>
+    <ClInclude Include="clsString.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
