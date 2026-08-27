@@ -13,8 +13,6 @@ int main()
 
 	clsUtil::Srand();
 
-	cout << boolalpha;
-
 	while (true)
 	{
 		if (!clsLoginScreen::ShhowLoginScreen())

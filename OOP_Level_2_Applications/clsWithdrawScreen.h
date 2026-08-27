@@ -51,7 +51,6 @@ public:
 
 		double amount = 0;
 		cout << "\nPlease Enter Withdraw Amount : ";
-		//amount = clsInputValidate::ReadDoubleNumber();
 		amount = clsInputValidate<double>::ReadNumberBetween(0,Client1.AccountBalance);
 
 

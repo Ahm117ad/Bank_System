@@ -95,8 +95,7 @@ public:
 
 	static void FillArrayWithRandomNumber(int arr[], int arrLength)
 	{
-		/*cout << "Enter Number Of Elements.\n";
-		cin >> arrLength;*/
+		
 		for (int i = 0; i < arrLength; i++)
 		{
 			arr[i] = RandomNumber(1, 100);
@@ -125,7 +124,6 @@ public:
 
 	static int MinmumNumberInArray(int arr[], int arrLength)
 	{
-		//int MinimumNumber = 100; (My solution)
 		int MinNumber = 0;
 		MinNumber = arr[0];
 		for (int i = 0; i < arrLength; i++)
@@ -159,46 +157,7 @@ public:
 		B = Temp;
 	}
 
-	/*static void Swap(int& A, int& B)
-	{
-		int Temp;
-		Temp = A;
-		A = B;
-		B = Temp;
-	}
-
-	static void Swap(float& A, float& B)
-	{
-		float Temp;
-		Temp = A;
-		A = B;
-		B = Temp;
-	}
-
-	static void Swap(double& A, double& B)
-	{
-		double Temp;
-		Temp = A;
-		A = B;
-		B = Temp;
-	}
-
-	static void Swap(string& A, string& B)
-	{
-		string Temp;
-		Temp = A;
-		A = B;
-		B = Temp;
-	}
-
-	static void Swap(char& A, char& B)
-	{
-		char Temp;
-		Temp = A;
-		A = B;
-		B = Temp;
-	}*/
-
+	
 	static void SwapDate(clsDate& A, clsDate& B)
 	{
 		clsDate::SwapDates(A, B);

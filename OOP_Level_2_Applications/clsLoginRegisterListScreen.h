@@ -12,7 +12,6 @@ private:
 
 	static void _PrintUserRecordLine(clsUser::stLoginRegisterRecord LoginRegisterRecord)
 	{
-		//cout << setw(8) << left << "" << "| " << left << setw(15) << CurrentUser;
 		
 		cout << setw(8) << left << "" << "| " << left << setw(35) << LoginRegisterRecord._Date_Time;
 		cout << "| " << left << setw(20) << LoginRegisterRecord._UserName;

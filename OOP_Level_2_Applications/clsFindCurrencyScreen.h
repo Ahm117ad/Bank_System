@@ -54,17 +54,6 @@ public:
 		cout << "\nFind By : Code [1] , Country [2] : ";
 		Choice = _ReadOption();
 
-		/*if (Choice == 1)
-		{
-			_CurrencyByCode();
-			_PrintCurrencyCard(_CurrencyByCode());
-		}
-		else if (Choice == 2)
-		{
-			_CurrencyByCountry();
-			_PrintCurrencyCard(_CurrencyByCountry());
-		}*/
-
 		if (Choice == 1)
 		{
 			string Code = "";
@@ -87,10 +76,6 @@ public:
 			_ShowResult(Currency2);
 			
 		}
-
-
-
 	}
-
 };
 

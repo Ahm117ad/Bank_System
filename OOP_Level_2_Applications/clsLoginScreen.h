@@ -21,20 +21,6 @@ private:
 
 		do
 		{
-			// My Solution (void function insted of bool)
-			/*if (LoginFailde)
-			{
-				cout << "\nInvalid UserName/Password!\n\n";
-				Trials--;
-				cout << "You have " << Trials << " left.\n";
-				if (Trials == 0)
-				{
-					cout << "\nYou are locked after 3 failed trials.\n";
-					exit(0);
-				}
-			}*/
-
-			// abu-hadhoud solution
 			if (LoginFailde)
 			{
 				FaildLoginCount++;

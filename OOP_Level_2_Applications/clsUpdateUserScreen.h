@@ -218,7 +218,6 @@ public:
 			cout << "\nUpdate User Info : ";
 			cout << "\n______________________________\n";
 
-			//_ReadUserInfo(User1);
 			_PerformUpdateOption(enUpdateOption(_WhatToUpdate()), User1);
 
 
@@ -236,11 +235,6 @@ public:
 				break;
 			}
 		}
-		
-
-
 	}
-
-
 };
 

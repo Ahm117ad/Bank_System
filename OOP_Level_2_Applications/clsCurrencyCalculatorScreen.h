@@ -85,53 +85,6 @@ public:
 	static void ShowCurrencyCalculatorScreen()
 	{
 
-		/*_DrawScreenHeader("\t Currency Calculator Screen");
-
-		string Code1, Code2;
-		cout << "\nPlease Enter Currency1 Code : ";
-
-		Code1 = clsInputValidate<string>::ReadString();
-		
-		while (!clsCurrency::IsCurrencyExist(Code1))
-		{
-			cout << "\nCurrency Code Was not found, Enter another Code : ";
-			Code1 = clsInputValidate<string>::ReadString();
-		}
-		clsCurrency Currency1 = clsCurrency::FindByCode(Code1);
-		cout << Currency1.IsEmpty() << endl;
-
-		cout << "\nPlease Enter Currency2 Code : ";
-
-		Code2 = clsInputValidate<string>::ReadString();
-
-		while (!clsCurrency::IsCurrencyExist(Code2))
-		{
-			cout << "\nCurrency Code Was not found, Enter another Code : ";
-			Code2 = clsInputValidate<string>::ReadString();
-		}
-		clsCurrency Currency2 = clsCurrency::FindByCode(Code2);
-
-		float Amount = _ReadAmount();
-
-		cout << "\nConvert From : " << endl;
-		_PrintCurrencyCard(Currency1);
-
-		cout << "To :\n";
-		_PrintCurrencyCard(Currency2);
-
-		float Result = _ExchangeAmount(Currency1, Currency2, Amount);
-
-		cout << "\nResult = " << Result << endl;
-
-		cout << "\nDo You want to perform this again? [y / n] : ";
-		char answer = 'n';
-		cin >> answer;
-		if (answer == 'y' || answer == 'Y')
-		{
-			system("cls");
-			ShowCurrencyCalculatorScreen();
-		}*/
-
 		char Contiue = 'y';
 		while (Contiue == 'y'|| Contiue == 'Y')
 		{

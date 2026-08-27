@@ -25,31 +25,26 @@ private:
 	
 	static void _ShowDepositScreen()
 	{
-		//cout << "Deposit Screen will be here...";
 		clsDepositScreen::ShowDepositScreen();
 	}
 	
 	static void _ShowWithdrawScreen()
 	{
-		//cout << "Withdraw Screen will be here...";
 		clsWithdrawScreen::ShowWithdrawScreen();
 	}
 	
 	static void _ShowTotalBalancesScreen()
 	{
-		//cout << "Total Balances Screen will be here...";
 		clsTotalBalancesScreen::ShowTotalBalancesScreen();
 	}
 	
 	static void _ShowTransferScreen()
 	{
-		//cout << "\nTransfer Screen will be here...";
 		clsTransferScreen::ShowTransferSacreen();
 	}
 
 	static void _ShowTransferLogScreen()
 	{
-		//cout << "\nTransfer Log Screen will be here...";
 		clsTransferLogScreen::ShowTransferLogScreen();
 	}
 

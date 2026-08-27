@@ -24,31 +24,26 @@ private:
 	// done
 	static void _ShowListUsersScreen()
 	{
-		//cout << "\nList Users will be here...\n";
 		clsListUsersScreen::ShowUsersList();
 	}
 	// done
 	static void _ShowAddNewUserScreen()
 	{
-		//cout << "\nAdd new user will be here...\n";
 		clsAddNewUserScreen::ShowAddNewUserScreen();
 	}
 	// 
 	static void _ShowDeleteUserScreen()
 	{
-		//cout << "\nDelete User will be here...\n";
 		clsDeleteUserScreen::ShowDeleteUserScreen();
 	}
 	// done
 	static void _ShowUpdateUserScreen()
 	{
-		//cout << "\nUpdate user will be here...\n";
 		clsUpdateUserScreen::ShowUpdateUserScreen();
 	}
 	// done
 	static void _ShowFindUserScreen()
 	{
-		//cout << "\nFind user will be here...\n";
 		clsFindUserScreen::ShowFindUserScreen();
 	}
 

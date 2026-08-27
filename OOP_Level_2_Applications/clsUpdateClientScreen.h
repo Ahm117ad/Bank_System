@@ -138,7 +138,6 @@ public:
 			cout << "_________________________________\n";
 
 			_PerformOptions(enUpdateOption(_WhatToUpdate()), Client);
-			//_ReadClientInfo(Client);
 
 			clsBankClient::enSaveResults SaveResult;
 

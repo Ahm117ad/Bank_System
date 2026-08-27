@@ -457,17 +457,7 @@ public:
 	static void SwapDates(clsDate & Date1, clsDate & Date2)
 	{
 		clsDate TempDate;
-		/*TempDate.Year = Date1.Year;
-		TempDate.Month = Date1.Month;
-		TempDate.Day = Date1.Day;
-
-		Date1.Year = Date2.Year;
-		Date1.Month = Date2.Month;
-		Date1.Day = Date2.Day;
-
-		Date2.Year = TempDate.Year;
-		Date2.Month = TempDate.Month;
-		Date2.Day = TempDate.Day;*/
+		
 		TempDate = Date1;
 		Date1 = Date2;
 		Date2 = TempDate;
@@ -878,14 +868,7 @@ public:
 
 	static short DaysUntilEndOfMonth(clsDate Date)
 	{
-		/*short Res = 0;
-		short TheDay = NumberOfDaysInMonth(Date.Month, Date.Year);
-
-		for (short i = Date.Day; i <= TheDay; i++)
-		{
-			Res++;
-		}
-		return Res;*/
+		
 		clsDate EndOfMonthDate;
 		EndOfMonthDate.Day = NumberOfDaysInMonth(Date.Month, Date.Year);
 		EndOfMonthDate.Month = Date.Month;
@@ -1040,11 +1023,6 @@ public:
 	{
 		return FormatDate(*this, Format);
 	}
-
-	/*void Print()
-	{
-		cout << DateToString() << endl;
-	}*/
 
 	static string GetSystemDateTimeString()
 	{

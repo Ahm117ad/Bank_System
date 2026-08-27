@@ -88,7 +88,6 @@ public:
 			if (S[i] != ' ' && isFirstLetter)
 			{
 				cout << S[i] << endl;
-				//return S[i];
 			}
 			isFirstLetter = S[i] == ' ' ? true : false;
 		}
@@ -305,10 +304,7 @@ public:
 		}
 		return vString;
 	}
-	/*vector<string>Split(string delimitir)
-	{
-		return Split(_Value, delimitir);
-	}*/
+	
 
 	static string TrimLeft(string st)
 	{

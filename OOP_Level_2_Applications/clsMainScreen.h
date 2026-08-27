@@ -52,13 +52,11 @@ protected:
 	// done
 	static void _ShowAddNewClientScreen()
 	{
-		//cout << "Show Add New Client Will Be Here...\n";
 		clsAddNewClientScreen::ShowAddNewClientScreen();
 	}
 	// sone
 	static void _ShowDeleteClientScreen()
 	{
-		//cout << "Show Delete Client Will Be Here...\n";
 		clsDeleteClientScreen::ShowDeleteClientScreen();
 	}
 	// done
@@ -79,19 +77,16 @@ protected:
 	// done
 	static void _ShowManageUsersScreen()
 	{
-		//cout << "\nShow manage users screen will be here...\n";
 		clsManageUsersScreen::ShowManageUsersMenue();
 	}
 
 	static void _ShowLoginRegisterScreen()
 	{
-		//cout << "\nLogin Register Screen will be here...";
 		clsLoginRegisterListScreen::ShowLoginRegisterScreen();
 	}
 	
 	static void  _ShowCurrencyExchangeScreen()
 	{
-		//cout << "\nCurrency Exchange will be here...";
 		clsCurrencyExchangeScreen::ShowCurrencyExchangeMenue();
 	}
 
@@ -184,9 +179,5 @@ public:
 
 		_PerformMainMenueOptions((enMainMenueOption)_ReadMainMenueOption());
 	}
-		
-
-
-
 };
 

@@ -22,25 +22,21 @@ private:
 
 	static void _ShowListCurrenciesScreen()
 	{
-		//cout << "\nList Currencies will be here...";
 		clsListCurrenciesScreen::ShowListCurrencies();
 	}
 
 	static void _ShowFindCurrencyScreen()
 	{
-		//cout << "\nFind Currency will be here...";
 		clsFindCurrencyScreen::ShowFindCurrencyScreen();
 	}
 
 	static void _ShowUpdateRateScreen()
 	{
-		//cout << "\nUpdate Rate will be here...";
 		clsUpdateCurrencyScreen::ShowUpdateCurrencyScreen();
 	}
 
 	static void _ShowCurrencyCalculatorScreen()
 	{
-		//cout << "\nCurrency calculator will be here...";
 		clsCurrencyCalculatorScreen::ShowCurrencyCalculatorScreen();
 	}
 

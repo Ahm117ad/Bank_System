@@ -25,7 +25,7 @@ protected:
 		}
 		cout << clsUtil::Taps(2) << "____________________________________\n";
 		cout << endl;
-		// Extesion 1
+
 		cout << clsUtil::Taps(2) << "User : " << CurrentUser.UserName << endl;
 		cout << clsUtil::Taps(2) << "Date : " << clsDate::DateToString(clsDate()) << endl;
 		

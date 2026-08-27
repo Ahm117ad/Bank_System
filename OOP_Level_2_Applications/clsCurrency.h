@@ -217,24 +217,7 @@ public:
 		return _MarkedForDelete;
 	}
 
-	//bool Delete()
-	//{
-	//	vector<clsCurrency>vCurrencys;
-	//	vCurrencys = _LoadCurrencysFromFile();
-
-	//	for (clsCurrency &C : vCurrencys)
-	//	{
-	//		if (C.CurrencyCode() == CurrencyCode())
-	//		{
-	//			C._MarkedForDelete = true;
-	//			break;
-	//		}
-	//	}
-	//	_SaveCurrencyDataToFile(vCurrencys);
-	//	*this = _GetEmptyCurrencyObject();
-	//	return true;
-
-	//}
+	
 
 	float ConvertToUSD(float Amount)
 	{
